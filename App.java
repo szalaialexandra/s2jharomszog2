@@ -12,22 +12,20 @@ import java.util.Scanner;
 
 class App {
 	public static void main (String [] args){
-		System.out.println("Szalai Alexandra, 2022_02_16");
+		System.out.println("Szalai Alexandra, 2022_02_16, Szoft I N");
 		System.out.println("Feladat 0306");
-		System.out.println("Háromszog terulete");
+		System.out.println("Haromszog terulete");
+		System.out.println();
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Oldal: ");
-		int oldal = sc.nextInt();
+		double oldal = sc.nextDouble();
 		
-		System.out.println("Magassag: ");
+		System.out.print("Magassag: ");
 		double magassag = sc.nextDouble();
 		
-		double terulet =
-		
-		
-		
-		
+		double terulet = oldal * magassag / 2;
+		System.out.println("Terulet: " + terulet);
 		
 	}
 }
